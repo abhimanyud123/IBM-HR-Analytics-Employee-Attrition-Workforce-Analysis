@@ -31,9 +31,9 @@ The insights generated support employee retention, workforce planning, compensat
 - PostgreSQL
 - SQL
 - Power BI Desktop
+- Microsoft Excel
 - Git & GitHub
 - Markdown
-- Microsoft Excel
 - CSV Dataset
 
 ---
@@ -43,7 +43,7 @@ The insights generated support employee retention, workforce planning, compensat
 ```text
 Raw CSV Dataset
         ↓
-Excel Data Validation & Data Dictionary
+Excel (Raw & Cleaned Workbook)
         ↓
 PostgreSQL Database Setup
         ↓
@@ -111,7 +111,8 @@ IBM-HR-Analytics/
 ├── dataset/
 │
 ├── excel/
-│   └── IBM-HR-Analytics.xlsx
+│   ├── IBM_HR_Analytics_Raw.xlsx
+│   └── IBM_HR_Analytics_Cleaned.xlsx
 │
 ├── sql/
 │   ├── 01_database_setup.sql
@@ -183,7 +184,7 @@ The repository includes comprehensive project documentation:
 - Compensation Analysis
 - Employee Satisfaction Analysis
 - Demographic Analysis
-- Department Performance Analysis
+- Department Analysis
 - Job Role Analysis
 - Workforce Trend Analysis
 - Business Insight Generation
