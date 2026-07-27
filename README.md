@@ -78,12 +78,7 @@ The dashboard consists of two interactive report pages.
 - Employee Distribution by Gender
 - Employee Distribution by Marital Status
 
-### Dashboard Preview
-
-<img width="584" height="331" alt="Screenshot 2026-07-27 121016" src="https://github.com/user-attachments/assets/c7a6af41-1391-40e0-af26-40adcc13aa69" /> 
-<img width="582" height="329" alt="Screenshot 2026-07-27 121036" src="https://github.com/user-attachments/assets/20c2a7f5-cc63-434b-a6ed-99eab32789a7" />
-
-
+![Executive Overview](PowerBI/Executive.overview.png)
 
 ---
 
@@ -96,9 +91,7 @@ The dashboard consists of two interactive report pages.
 - Employee Attrition by Job Satisfaction
 - Employee Attrition by Work-Life Balance
 
-### Dashboard Preview
-
-> *(Insert Employee Insights screenshot here)*
+![Employee Insights](PowerBI/Employee.insights.png)
 
 ---
 
@@ -121,20 +114,20 @@ The dashboard consists of two interactive report pages.
 ```text
 IBM-HR-Analytics/
 │
-├── dataset/
+├── Dataset/
 │
-├── excel/
+├── Excel/
 │   ├── IBM_HR_Analytics_Raw.xlsx
 │   └── IBM_HR_Analytics_Cleaned.xlsx
 │
-├── sql/
+├── SQL/
 │   ├── 01_database_setup.sql
 │   ├── 02_data_validation.sql
 │   ├── 03_data_cleaning.sql
 │   ├── 04_exploratory_analysis.sql
 │   └── 05_business_analysis.sql
 │
-├── documentation/
+├── Documentation/
 │   ├── Project Overview.md
 │   ├── Data Dictionary.md
 │   ├── Data Validation Report.md
@@ -143,13 +136,11 @@ IBM-HR-Analytics/
 │   ├── Business Insights.md
 │   └── Dashboard.md
 │
-├── dashboard/
+├── PowerBI/
 │   ├── IBM_HR_Analytics.pbix
-│   └── IBM_HR_Analytics.pdf
-│
-├── images/
-│   ├── executive-overview.png
-│   └── employee-insights.png
+│   ├── IBM_HR_Analytics.pdf
+│   ├── Executive.overview.png
+│   └── Employee.insights.png
 │
 └── README.md
 ```
