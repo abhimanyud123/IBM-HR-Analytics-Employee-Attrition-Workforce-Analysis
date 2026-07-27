@@ -1,10 +1,10 @@
 # 👥 IBM HR Analytics Employee Attrition Analysis using PostgreSQL & Power BI
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-This project analyzes employee attrition and workforce trends using the IBM HR Analytics Employee Attrition & Performance dataset. The analysis was performed using PostgreSQL for data processing and Power BI for visualization, following a complete end-to-end data analytics workflow.
+This project analyzes employee attrition and workforce trends using the **IBM HR Analytics Employee Attrition & Performance** dataset. The analysis was performed using **PostgreSQL** for data processing and **Power BI** for visualization, following a complete end-to-end data analytics workflow.
 
-The project transforms raw HR data into meaningful business insights by exploring employee attrition, workforce demographics, job roles, compensation, employee satisfaction, overtime, business travel, and tenure.
+The project transforms raw HR data into meaningful business insights by exploring employee attrition, workforce demographics, job roles, compensation, employee satisfaction, overtime, business travel, and employee tenure.
 
 ---
 
@@ -31,6 +31,7 @@ The insights generated support employee retention, workforce planning, compensat
 - PostgreSQL
 - SQL
 - Power BI Desktop
+- DAX
 - Microsoft Excel
 - Git & GitHub
 - Markdown
@@ -62,31 +63,39 @@ Power BI Dashboard
 
 # 📊 Power BI Dashboard
 
-The dashboard consists of two report pages.
+The dashboard consists of two interactive report pages.
 
 ## Executive Overview
 
 - Total Employees
-- Overall Attrition Rate
+- Employees Left
+- Attrition Rate
 - Average Age
 - Average Monthly Income
-- Attrition by Department
-- Attrition by Job Role
-- Attrition by Age Group
-- Attrition by Gender
-- Attrition by Marital Status
+- Employee Attrition by Department
+- Employee Attrition by Job Role
+- Employee Attrition by Age Group
+- Employee Distribution by Gender
+- Employee Distribution by Marital Status
+
+### Dashboard Preview
+
+> *(Insert Executive Overview screenshot here)*
+
+---
 
 ## Employee Insights
 
-- Attrition by Overtime
-- Attrition by Business Travel
-- Monthly Income Comparison
-- Job Satisfaction vs Attrition
-- Environment Satisfaction vs Attrition
-- Work-Life Balance vs Attrition
-- Years at Company vs Attrition
-- Average Income by Department
-- Average Income by Job Role
+- Employee Attrition by Overtime
+- Employee Attrition by Business Travel
+- Average Monthly Income by Attrition
+- Employee Attrition by Years at Company
+- Employee Attrition by Job Satisfaction
+- Employee Attrition by Work-Life Balance
+
+### Dashboard Preview
+
+> *(Insert Employee Insights screenshot here)*
 
 ---
 
@@ -99,7 +108,8 @@ The dashboard consists of two report pages.
 - Frequent business travel is associated with higher employee attrition.
 - Employees under 30 years old experience the highest attrition rates.
 - Employees with lower monthly incomes are more likely to leave the organization.
-- Lower job satisfaction and work-life balance are associated with increased employee turnover.
+- Lower job satisfaction and poorer work-life balance are associated with increased employee turnover.
+- Employee attrition is highest during the first few years of employment.
 
 ---
 
@@ -134,6 +144,10 @@ IBM-HR-Analytics/
 │   ├── IBM_HR_Analytics.pbix
 │   └── IBM_HR_Analytics.pdf
 │
+├── images/
+│   ├── executive-overview.png
+│   └── employee-insights.png
+│
 └── README.md
 ```
 
@@ -164,16 +178,17 @@ The repository includes comprehensive project documentation:
 - GROUP BY
 - CASE Statements
 - Common Table Expressions (CTEs)
-- Window Functions
 - Business Analysis
 
 ## Power BI
 
+- DAX Measures
 - KPI Cards
 - Bar Charts
 - Column Charts
 - Donut Charts
-- Tables
+- Line Charts
+- Interactive Slicers
 - Dashboard Design
 - Data Visualization
 
@@ -195,7 +210,7 @@ The repository includes comprehensive project documentation:
 
 **Source:** IBM HR Analytics Employee Attrition & Performance Dataset
 
-The dataset contains **1,470 employee records** and **35 workforce attributes**, including employee demographics, job roles, compensation, satisfaction scores, overtime, business travel, and attrition status. It provides a realistic HR dataset for analyzing employee retention and workforce trends.
+The dataset contains **1,470 employee records** and **35 workforce attributes**, including employee demographics, job roles, compensation, satisfaction scores, overtime, business travel, years at the company, and attrition status. It provides a realistic HR dataset for analyzing employee retention and workforce trends.
 
 ---
 
@@ -203,4 +218,4 @@ The dataset contains **1,470 employee records** and **35 workforce attributes**,
 
 If you have any questions or feedback about this project, feel free to connect with me through GitHub or LinkedIn.
 
-⭐ If you found this project useful or interesting, consider giving the repository a star.
+⭐ **If you found this project useful or interesting, consider giving the repository a star.**
