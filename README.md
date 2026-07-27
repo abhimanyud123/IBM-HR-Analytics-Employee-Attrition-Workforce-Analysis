@@ -80,7 +80,10 @@ The dashboard consists of two interactive report pages.
 
 ### Dashboard Preview
 
-> *(Insert Executive Overview screenshot here)*
+<img width="584" height="331" alt="Screenshot 2026-07-27 121016" src="https://github.com/user-attachments/assets/c7a6af41-1391-40e0-af26-40adcc13aa69" /> 
+<img width="582" height="329" alt="Screenshot 2026-07-27 121036" src="https://github.com/user-attachments/assets/20c2a7f5-cc63-434b-a6ed-99eab32789a7" />
+
+
 
 ---
 
